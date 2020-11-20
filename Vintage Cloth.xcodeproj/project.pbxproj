@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33BCF40C256821CF0021861A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF40B256821CF0021861A /* AppDelegate.swift */; };
+		33BCF40E256821CF0021861A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF40D256821CF0021861A /* SceneDelegate.swift */; };
+		33BCF410256821CF0021861A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF40F256821CF0021861A /* LoginController.swift */; };
+		33BCF413256821CF0021861A /*  .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BCF411256821CF0021861A /*  .storyboard */; };
+		33BCF416256821CF0021861A /* Vintage_Cloth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF414256821CF0021861A /* Vintage_Cloth.xcdatamodeld */; };
+		33BCF418256821D10021861A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BCF417256821D10021861A /* Assets.xcassets */; };
+		33BCF41B256821D10021861A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BCF419256821D10021861A /* LaunchScreen.storyboard */; };
+		33BCF426256821D20021861A /* Vintage_ClothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF425256821D20021861A /* Vintage_ClothTests.swift */; };
+		33BCF431256821D20021861A /* Vintage_ClothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF430256821D20021861A /* Vintage_ClothUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33BCF422256821D20021861A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BCF400256821CF0021861A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33BCF407256821CF0021861A;
+			remoteInfo = "Vintage Cloth";
+		};
+		33BCF42D256821D20021861A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BCF400256821CF0021861A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33BCF407256821CF0021861A;
+			remoteInfo = "Vintage Cloth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33BCF408256821CF0021861A /* Vintage Cloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vintage Cloth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BCF40B256821CF0021861A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33BCF40D256821CF0021861A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33BCF40F256821CF0021861A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		33BCF412256821CF0021861A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ .storyboard"; sourceTree = "<group>"; };
+		33BCF415256821CF0021861A /* Vintage_Cloth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vintage_Cloth.xcdatamodel; sourceTree = "<group>"; };
+		33BCF417256821D10021861A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33BCF41A256821D10021861A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33BCF41C256821D10021861A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BCF421256821D20021861A /* Vintage ClothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vintage ClothTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BCF425256821D20021861A /* Vintage_ClothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vintage_ClothTests.swift; sourceTree = "<group>"; };
+		33BCF427256821D20021861A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BCF42C256821D20021861A /* Vintage ClothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vintage ClothUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BCF430256821D20021861A /* Vintage_ClothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vintage_ClothUITests.swift; sourceTree = "<group>"; };
+		33BCF432256821D20021861A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33BCF405256821CF0021861A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BCF41E256821D20021861A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BCF429256821D20021861A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33BCF3FF256821CF0021861A = {
+			isa = PBXGroup;
+			children = (
+				33BCF40A256821CF0021861A /* Vintage Cloth */,
+				33BCF424256821D20021861A /* Vintage ClothTests */,
+				33BCF42F256821D20021861A /* Vintage ClothUITests */,
+				33BCF409256821CF0021861A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33BCF409256821CF0021861A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33BCF408256821CF0021861A /* Vintage Cloth.app */,
+				33BCF421256821D20021861A /* Vintage ClothTests.xctest */,
+				33BCF42C256821D20021861A /* Vintage ClothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33BCF40A256821CF0021861A /* Vintage Cloth */ = {
+			isa = PBXGroup;
+			children = (
+				33BCF40B256821CF0021861A /* AppDelegate.swift */,
+				33BCF40D256821CF0021861A /* SceneDelegate.swift */,
+				33BCF40F256821CF0021861A /* LoginController.swift */,
+				33BCF411256821CF0021861A /*  .storyboard */,
+				33BCF417256821D10021861A /* Assets.xcassets */,
+				33BCF419256821D10021861A /* LaunchScreen.storyboard */,
+				33BCF41C256821D10021861A /* Info.plist */,
+				33BCF414256821CF0021861A /* Vintage_Cloth.xcdatamodeld */,
+			);
+			path = "Vintage Cloth";
+			sourceTree = "<group>";
+		};
+		33BCF424256821D20021861A /* Vintage ClothTests */ = {
+			isa = PBXGroup;
+			children = (
+				33BCF425256821D20021861A /* Vintage_ClothTests.swift */,
+				33BCF427256821D20021861A /* Info.plist */,
+			);
+			path = "Vintage ClothTests";
+			sourceTree = "<group>";
+		};
+		33BCF42F256821D20021861A /* Vintage ClothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33BCF430256821D20021861A /* Vintage_ClothUITests.swift */,
+				33BCF432256821D20021861A /* Info.plist */,
+			);
+			path = "Vintage ClothUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33BCF407256821CF0021861A /* Vintage Cloth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BCF435256821D20021861A /* Build configuration list for PBXNativeTarget "Vintage Cloth" */;
+			buildPhases = (
+				33BCF404256821CF0021861A /* Sources */,
+				33BCF405256821CF0021861A /* Frameworks */,
+				33BCF406256821CF0021861A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vintage Cloth";
+			productName = "Vintage Cloth";
+			productReference = 33BCF408256821CF0021861A /* Vintage Cloth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33BCF420256821D20021861A /* Vintage ClothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BCF438256821D20021861A /* Build configuration list for PBXNativeTarget "Vintage ClothTests" */;
+			buildPhases = (
+				33BCF41D256821D20021861A /* Sources */,
+				33BCF41E256821D20021861A /* Frameworks */,
+				33BCF41F256821D20021861A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33BCF423256821D20021861A /* PBXTargetDependency */,
+			);
+			name = "Vintage ClothTests";
+			productName = "Vintage ClothTests";
+			productReference = 33BCF421256821D20021861A /* Vintage ClothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33BCF42B256821D20021861A /* Vintage ClothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BCF43B256821D20021861A /* Build configuration list for PBXNativeTarget "Vintage ClothUITests" */;
+			buildPhases = (
+				33BCF428256821D20021861A /* Sources */,
+				33BCF429256821D20021861A /* Frameworks */,
+				33BCF42A256821D20021861A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33BCF42E256821D20021861A /* PBXTargetDependency */,
+			);
+			name = "Vintage ClothUITests";
+			productName = "Vintage ClothUITests";
+			productReference = 33BCF42C256821D20021861A /* Vintage ClothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33BCF400256821CF0021861A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					33BCF407256821CF0021861A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					33BCF420256821D20021861A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 33BCF407256821CF0021861A;
+					};
+					33BCF42B256821D20021861A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 33BCF407256821CF0021861A;
+					};
+				};
+			};
+			buildConfigurationList = 33BCF403256821CF0021861A /* Build configuration list for PBXProject "Vintage Cloth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33BCF3FF256821CF0021861A;
+			productRefGroup = 33BCF409256821CF0021861A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33BCF407256821CF0021861A /* Vintage Cloth */,
+				33BCF420256821D20021861A /* Vintage ClothTests */,
+				33BCF42B256821D20021861A /* Vintage ClothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33BCF406256821CF0021861A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BCF41B256821D10021861A /* LaunchScreen.storyboard in Resources */,
+				33BCF418256821D10021861A /* Assets.xcassets in Resources */,
+				33BCF413256821CF0021861A /*  .storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BCF41F256821D20021861A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BCF42A256821D20021861A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33BCF404256821CF0021861A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BCF410256821CF0021861A /* LoginController.swift in Sources */,
+				33BCF416256821CF0021861A /* Vintage_Cloth.xcdatamodeld in Sources */,
+				33BCF40C256821CF0021861A /* AppDelegate.swift in Sources */,
+				33BCF40E256821CF0021861A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BCF41D256821D20021861A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BCF426256821D20021861A /* Vintage_ClothTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BCF428256821D20021861A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BCF431256821D20021861A /* Vintage_ClothUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33BCF423256821D20021861A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33BCF407256821CF0021861A /* Vintage Cloth */;
+			targetProxy = 33BCF422256821D20021861A /* PBXContainerItemProxy */;
+		};
+		33BCF42E256821D20021861A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33BCF407256821CF0021861A /* Vintage Cloth */;
+			targetProxy = 33BCF42D256821D20021861A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33BCF411256821CF0021861A /*  .storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BCF412256821CF0021861A /* Base */,
+			);
+			name = " .storyboard";
+			sourceTree = "<group>";
+		};
+		33BCF419256821D10021861A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BCF41A256821D10021861A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33BCF433256821D20021861A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33BCF434256821D20021861A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33BCF436256821D20021861A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49F26H9KGU;
+				INFOPLIST_FILE = "Vintage Cloth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.Vintage-Cloth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33BCF437256821D20021861A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49F26H9KGU;
+				INFOPLIST_FILE = "Vintage Cloth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.Vintage-Cloth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33BCF439256821D20021861A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49F26H9KGU;
+				INFOPLIST_FILE = "Vintage ClothTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.Vintage-ClothTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vintage Cloth.app/Vintage Cloth";
+			};
+			name = Debug;
+		};
+		33BCF43A256821D20021861A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49F26H9KGU;
+				INFOPLIST_FILE = "Vintage ClothTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.Vintage-ClothTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vintage Cloth.app/Vintage Cloth";
+			};
+			name = Release;
+		};
+		33BCF43C256821D20021861A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49F26H9KGU;
+				INFOPLIST_FILE = "Vintage ClothUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.Vintage-ClothUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vintage Cloth";
+			};
+			name = Debug;
+		};
+		33BCF43D256821D20021861A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49F26H9KGU;
+				INFOPLIST_FILE = "Vintage ClothUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahyun.Vintage-ClothUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vintage Cloth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33BCF403256821CF0021861A /* Build configuration list for PBXProject "Vintage Cloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BCF433256821D20021861A /* Debug */,
+				33BCF434256821D20021861A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BCF435256821D20021861A /* Build configuration list for PBXNativeTarget "Vintage Cloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BCF436256821D20021861A /* Debug */,
+				33BCF437256821D20021861A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BCF438256821D20021861A /* Build configuration list for PBXNativeTarget "Vintage ClothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BCF439256821D20021861A /* Debug */,
+				33BCF43A256821D20021861A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BCF43B256821D20021861A /* Build configuration list for PBXNativeTarget "Vintage ClothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BCF43C256821D20021861A /* Debug */,
+				33BCF43D256821D20021861A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33BCF414256821CF0021861A /* Vintage_Cloth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33BCF415256821CF0021861A /* Vintage_Cloth.xcdatamodel */,
+			);
+			currentVersion = 33BCF415256821CF0021861A /* Vintage_Cloth.xcdatamodel */;
+			path = Vintage_Cloth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33BCF400256821CF0021861A /* Project object */;
+}
